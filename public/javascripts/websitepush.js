@@ -14,7 +14,7 @@ var checkRemotePermission = function (permissionData) {
             //'https://api.zhangxianli.cn/v1/pushPackages/web.com.digby.test.jaysorc', // The web service URL.
             'https://api.zhangxianli.cn', // The web service URL.
             'web.com.digby.test.jaysorc',     // The Website Push ID.
-            {'userId': 'jyang@digby.com'}, // Data that you choose to send to your server to help you identify the user.
+            {"userId": "jyang@digby.com"}, // Data that you choose to send to your server to help you identify the user.
             checkRemotePermission         // The callback function.
         );
 	console.log(JSON.stringify(ret));
